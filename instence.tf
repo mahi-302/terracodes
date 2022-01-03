@@ -1,6 +1,6 @@
-profile "aws" {
-  profile="default"
-  region = "us-east-2"
+provider "aws" {
+  profile = "default"
+  region  = "us-east-2"
 }
 
 resource "aws_instance" "web" {
