@@ -8,7 +8,7 @@ resource "aws_instance" "web" {
      instance_type = "t2.micro"
      availability_zone = "us-east-2"
      subnet_id = "subnet-02ac0c9e52da309ab"
-     tag ={
+     tags = {
 	name = "mahe1"
 	}
  }
